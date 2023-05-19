@@ -1,0 +1,373 @@
+@font-face {
+    font-family: Intro; 
+    src: url(../fonts/Intro.woff);
+	font-weight: 700;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	color: #000;
+	list-style: none;
+	border: none;
+	box-sizing: border-box;
+}
+a, span, b, i{
+	color: inherit;
+}
+
+body{
+	font-family: Century Gothic, sans-serif;
+	background: url('../images/back.jpg') repeat-y center;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+.scrolllock{
+	overflow-y: hidden;
+}
+
+.center{
+	position: relative;
+	width: 960px;
+	padding: 1px 0 0 0;
+	margin: 0 auto;
+}
+.rzd{
+	clear: both;
+}
+h1{
+	font-family: 'Intro', sans-serif;
+	color: #3318ae;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+/*
+	HEADER
+*/
+.header{
+	width: 100%;
+	min-width: 960px;
+	height: 100px;
+	background: #fff;
+}
+.logo{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 265px;
+	height: 100px;
+	background: url('../images/logo.png') no-repeat center left;
+}
+.logo h1{
+	text-indent: -9999px;
+	background: none;
+	margin: 0px;
+	padding: 0px;
+	font-size: 0px;
+	line-height: 0px;
+}
+
+.but1{
+	display: inline-block;
+	float: right;
+	margin-top: 30px;
+	width: 194px;
+	height: 53px;
+	background: url('../images/but_main.png') no-repeat center top;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 46px;
+}
+.but1:hover{
+	background: url('../images/but_main.png') no-repeat center bottom;
+}
+
+.block1{
+	width: 100%;
+	min-width: 960px;
+	height: 600px;
+	background: url('../images/1.jpg') no-repeat center top;
+}
+.block1 h1{
+	font-family: 'Intro', sans-serif;
+	color: #fdd636;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px;
+	margin-top: 40px;
+}
+.block1 h2{
+	font-family: 'Intro', sans-serif;
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px;
+	margin-top: 20px;
+}
+.block1 .text{
+	width: 494px;
+	height: 108px;
+	background: url('../images/block1/text.png') no-repeat;
+	position: absolute;
+	top: 475px;
+	left: 40px;
+}
+.block1 .text p{
+	color: #3318ae;
+	font-size: 24px;
+	font-weight: 700;
+	font-family: 'Intro', sans-serif;
+	margin: 25px 0px 0px 45px;
+}
+
+
+/*BLOCKKSKKS!!!!111*/
+
+.whiteblock{
+	width: 100%;
+	min-width: 960px;
+	background: #fff;
+	padding: 1px 0;
+}
+
+.parallax{
+	width: 100%;
+	min-width: 960px;
+	padding: 1px 0;
+	background: none;
+}
+
+.block2{
+	padding-bottom: 50px;
+}
+.block2 h1{
+	display: block;
+	width: 960px;
+	height: 81px;
+	margin: 70px auto 90px;
+	color: white;
+	background: url('../images/h1.png') no-repeat center top;
+	line-height: 65px;
+	font-size: 30px;
+}
+.block2 .eggs{
+	display: iline-block;
+	float: left;
+	width: 445px;
+	height: 230px;
+	background: #000;
+}
+.block2 .eggs p{
+	color: #707070;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 100px;
+}
+.block2 .eggs p span{
+	color: #3318ae;
+	font-size: 22px;
+	font-weight: 700;
+}
+.block2 #eggs1{
+	margin-right: 70px;
+	background: url('../images/11.png') no-repeat left top;
+}
+.block2 #eggs2{
+	background: url('../images/22.png') no-repeat left top;
+}
+.block2 #eggs3{
+	margin-right: 70px;
+	background: url('../images/33.png') no-repeat left top;
+}
+.block2 #eggs4{
+	background: url('../images/44.png') no-repeat left top;
+}
+
+
+
+.block8 h1{
+	display: block;
+	width: 960px;
+	height: 82px;
+	margin: 70px auto;
+	color: white;
+	background: url('../images/h1.png') no-repeat center top;
+	line-height: 65px;
+	font-size: 24px;
+}
+.block8 .but1{
+	display: block;
+	float: none;
+	margin: 0px auto;
+}
+.block8 .case{
+	width: 960px;
+	height: 390px;
+}
+.block8 .images{
+	display: inline-block;
+	float: left;
+	width: 480px;
+	height: 260px;
+}
+.block8 .text{
+	display: inline-block;
+	float: left;
+	width: 480px;
+	height: 260px;
+}
+.block8 .text p{
+	color: #707070;
+	font-size: 14px;
+	font-weight: 400;
+	margin-left: 5px;
+}
+.block8 .text p span{
+	color: #3318ae;
+	font-size: 18px;
+	font-weight: 700;
+}
+.block8 .img{
+	position: relative;
+	width: 113px;
+	height: 75px;
+	display: inline-block;
+	float: left;
+	margin: 0 4px 4px 0;
+}
+.block8 .img:nth-child(1){
+	width: 349px;
+	height: 233px;
+}
+.block8 .img .fade{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url('../images/fade2.png') no-repeat center, rgba(0,0,0,0.5);
+	width: 113px;
+	height: 75px;
+	opacity: 0;
+	transition: all 0.3s 0s;
+}
+.block8 .img:nth-child(1) .fade{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url('../images/fade3.png') no-repeat center, rgba(0,0,0,0.5);
+	width: 349px;
+	height: 233px;
+	opacity: 0;
+	transition: all 0.3s 0s;
+}
+.block8 .img:hover .fade{
+	opacity: 1;
+}
+
+.block9{
+	padding-bottom: 50px;
+}
+.block9 h1{
+	display: block;
+	width: 960px;
+	height: 82px;
+	margin: 75px auto;
+	color: white;
+	background: url('../images/h1.png') no-repeat center top;
+	line-height: 65px;
+	font-size: 24px;
+}
+.block9 .review{
+	display: inline-block;
+	float: left;
+	width: 456px;
+	background: #fff;
+	border-radius: 7px;
+	padding-bottom: 15px;
+}
+.block9 .review:nth-child(2){
+	margin-right: 48px;
+}
+.block9 .image{
+	width: 428px;
+	height: 257px;
+	background: #000;
+	margin: 13px auto 0;
+}
+.block9 p{
+	color: #707070;
+	font-size: 15px;
+	font-weight: 400;
+	margin: 25px 14px 0px;
+}
+.block9 p span{
+	color: #3318ae;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+
+.block12_2 h1{
+	display: block;
+	width: 960px;
+	height: 72px;
+	margin: 75px auto 50px;
+	color: white;
+	background: url('../images/h1.png') no-repeat center top;
+	line-height: 65px;
+	font-size: 24px;
+}
+.block12_2 .img{
+	width: 131px;
+	height: 87px;
+	display: inline-block;
+	float: left;
+	margin: 0px 1px 5px 5px;
+	overflow: hidden;
+	position: relative;
+	background: url('../images/mapload.gif') no-repeat center, #000;
+}
+.block12_2 .img:first-child{
+	width: 822px;
+	height: 547px;
+	margin: 0px 0px 0px 1px;
+}
+.block12_2 .rzd{
+	height: 75px;
+}
+.block12_2 .fade{
+	width: 131px;
+	height: 87px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url('../images/fade2.png') no-repeat center, rgba(0,0,0,0.75);
+	transition: all 0.2s 0s;
+	opacity: 0;
+}
+.block12_2 .img:hover .fade{
+	opacity: 1;
+}
+
+.block13{
+	height: 100px;
+}
+
+.footer{
+	width: 100%;
+	height: 30px;
+	border-top: 1px solid #ddd;
+	background: #444;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 300;
+	color: #f0f0f0;
+	line-height: 32px;
+}
+
